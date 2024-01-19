@@ -363,7 +363,7 @@ section {
 .section-title h6::after {
   content: "";
   position: absolute;
-  display: inline-block;
+  display: block;
   width: 950px;
   height: 1px;
   background: #beccbd;
