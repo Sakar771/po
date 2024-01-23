@@ -341,11 +341,31 @@ section {
   color: #edde0c;
 }
 
+.section-title h6 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+  position: relative;
+  color: #c7880a;
+}
+
+.section-title h6::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 936px;
+  height: 1px;
+  background: #bfd1be;
+  bottom: 0;
+  left: 0;
+}
+
 .section-title h2::after {
   content: "";
   position: absolute;
   display: block;
-  width: 955px;
+  width: 936px;
   height: 3px;
   background: #e11203;
   bottom: 0;
