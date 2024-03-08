@@ -841,19 +841,7 @@ section {
   background: #fff;
   border: 2px solid #1f5297;
 }
-.btn{
-  display: block;
-  margin: 50px auto;
-  width: fit-content;
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #137a08;
-  transition: background 0.5s;
-}
-.btn:hover{
-  background: #0573f1;
-}
+
 
 /*--------------------------------------------------------------
 # Portfolio
